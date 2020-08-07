@@ -1,0 +1,19 @@
+C:\mysql>bin\mysqld --defaults-file=C:\mysql\my.ini --initialize --console
+
+C:\mysql>bin\mysqld --console
+
+C:\mysql>bin\mysql -u root -p
+Enter password: ************
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'mypassword';
+
+mysql> show databases;
+
+mysql> create database test;
+
+mysql> create database test;
+
+mysql> exit
+
+C:\mysql>bin\mysqladmin -u root -p shutdown
+Enter password: **********
